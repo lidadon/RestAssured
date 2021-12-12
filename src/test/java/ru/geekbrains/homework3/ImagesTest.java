@@ -1,4 +1,4 @@
-package ru.geekbrains;
+package ru.geekbrains.homework3;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.AfterEach;
@@ -9,7 +9,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Base64;
 
-import static io.restassured.RestAssured.expect;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
